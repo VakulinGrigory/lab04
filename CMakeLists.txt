@@ -20,3 +20,4 @@ target_link_libraries(formatter_ex formatter)
 target_link_libraries(hello_world formatter_ex)
 target_link_libraries(equation formatter_ex)
 target_link_libraries(equation solver)
+ 
