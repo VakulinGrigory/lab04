@@ -3,6 +3,7 @@ project(builder)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+cmake_policy(SET CMP0079 NEW)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/formatter_ex_lib)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/formatter_lib)
