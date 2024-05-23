@@ -11,7 +11,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/solver_lib)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/formatter_ex_lib)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/formatter_lib)
-add_subdirectory${CMAKE_CURRENT_SOURCE_DIR}/(solver_lib)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/solver_lib)
 
 add_executable(hello_world ${CMAKE_CURRENT_SOURCE_DIR}/hello_world_application/hello_world.cpp)
 add_executable(equation ${CMAKE_CURRENT_SOURCE_DIR}/solver_application/equation.cpp)
